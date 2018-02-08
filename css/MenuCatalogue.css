@@ -1,0 +1,395 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+    height: auto;
+} 
+
+.level-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/* категории */
+.all-сategories{
+    
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+ /* шапка сайта */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 800px;
+}
+
+
+.filter:hover{
+    cursor: pointer;
+
+}
+.filters{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+.filter{
+    font-size: 20px;
+    font-family: "Taurus";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* всплывающие окна входа */
+
+.login-popup {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: none;
+    position: fixed;
+    background-color: #8a9bdb;
+    border-radius: 20px;
+    width: 110px;
+    height: 130px;
+    top: 130px;
+}
+
+.textNum {
+    display: block;
+    border-radius: 10px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.text {
+    display: block;
+    border-radius: 10px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    text-align: center;
+    font-family: "Taurus";
+    
+}
+
+.exit {
+    display: block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+    font-family: "Taurus";
+}
+
+
+/* всплывающие окна регистрации */
+
+.registration {
+    display: block;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+
+.registration-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: none;
+    background-color: #8a9bdb;
+    width: 120px;
+    height: 225px;
+    border-radius: 20px;
+    z-index: 100;
+}
+.registration{
+    text-align: center;
+    font-family: "Taurus";
+
+}
+
+.registration-submit{
+        display: block;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        border: none;
+        font-family: "Taurus";
+}
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    right: 10000px;
+    bottom: 10000px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* корзина изображение*/
+
+.cart-img {
+    width: 30px;
+    
+}
+
+
+/* вход изображение */
+
+.login-img {
+    width: 30px;
+   
+    left: auto;
+    right: auto;
+}
+
+
+/* корзина */
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 77px;
+
+}
+
+
+/* вход и регистрация */
+
+.pageExit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  
+}
+
+
+/* вход и корзина*/
+
+.exit-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    margin-top: 30px;
+    width: 90px;
+}
+
+
+/* название*/
+.main-text a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+    }
+.main-text {
+    font-size: 70px;
+    font-family: "Rosa Marena";
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+   
+}
+/* логотип */
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+   /* логотип + изображение*/ 
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.main-text a:active {
+    text-decoration-color: none;
+}
+
+.name-exit{
+font-size: 20px;
+font-family: "Taurus";
+}
+
+
+h2{
+    font-size: 30px;
+    font-family: "Taurus";
+    text-align: center;
+    margin-top: 0;
+
+}
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    right: 10000px;
+    bottom: 10000px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* корзина изображение*/
+
+.cart-img {
+    width: 30px;
+    
+}
+
+
+/* вход изображение */
+
+.login-img {
+    width: 30px;
+   
+    left: auto;
+    right: auto;
+}
+
+
+/* корзина */
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 77px;
+
+}
+
+
+/* вход и регистрация */
+
+.pageExit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  
+}
+
+
+/* вход и корзина*/
+
+.exit-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    margin-top: 30px;
+    width: 90px;
+}
+
+
+/* название*/
+
+.main-text {
+    font-size: 70px;
+    font-family: "Rosa Marena";
+    margin-top: 20px;
+   
+}
+/* логотип */
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+   /* логотип + изображение*/ 
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.main-text a:active {
+    text-decoration-color: none;
+}
+
+.name-exit{
+font-size: 20px;
+font-family: "Taurus";
+}
+
+
+h2{
+    font-size: 30px;
+    font-family: "Taurus";
+    text-align: center;
+    margin-top: 0;
+
+}
+.сategory {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: "Taurus";
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #EECEC1;
+}
+.сategory:active  {
+    background-color: #8a9bdb;
+    cursor: pointer;
+}
+
+.сategory:hover  {
+      cursor: pointer;
+}
+.registration:hover {
+    cursor: pointer;
+}
+
+.exit:{
+    cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,55 @@
+.products{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+}
+.product{
+    width: 140px;
+    height: 180px;
+    margin-top: 45px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.contentTwo{
+    display: flex;
+    display: none;
+}
+.choiceSize{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.page{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:  #8a9bdb;
+    
+   
+}
+.contentPlus{
+    display: flex;
+    flex-direction: column;
+
+}

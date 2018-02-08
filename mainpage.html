@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/mainPageStyle.css" />
+    <link rel="stylesheet" href="./css/MenuCatalogue.css" />
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/specialMainPage.js"></script>
+
+    <style>
+        body {
+            display: flex;
+            background-image: url(./img/backgroundImg.jpg);
+            /* Фоновый цвет и фоновый рисунок*/
+            color: #000;
+            /*Цвет текста на странице*/
+            background-attachment: fixed;
+            /* Фон страницы фиксируется */
+            background-repeat: no-repeat;
+            /* Изображение повторяется по горизонтали repeat-x */
+            justify-content: center;
+            background-size: 850px auto;
+            align-items: center;
+            display: block;
+            margin: auto;
+            background-position: top
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="main">
+            <a href="./mainpage.html">
+                <img class="logo" src="./img/logo.png">
+            </a>
+            <a class="main-text" href="./mainpage.html">
+               give the present
+            </a>
+        </div>
+        <div class="exit-cart">
+            <div class="pageExit">
+                <p class="name-exit">вход</p>
+                <input class="login-img" type="image" src="./img/login.png">
+                <div class="login-popup">
+                    <input class="textNum">
+                    <input class="text">
+                    <a class="registration">регистрация</a>
+                    <input class="exit" type="button" value="войти">
+
+                </div>
+                <div class="overlay">
+                    <div class="registration-popup">
+                        <a class="text">регистрация</a>
+                        <input class="textNum">
+                        <input class="text">
+                        <input class="text">
+                        <input class="text">
+                        <input class="text">
+                        <input class="registration-submit" type="button" value="сохранить">
+                    </div>
+                </div>
+
+            </div>
+            <div class="cart">
+                <a href="./pages/basket/basket.html">
+                    <input class="cart-img" type="image" src="./img/cart.png">
+                    <a>
+                        <p class="name-exit">корзина</p>
+            </div>
+        </div>
+
+    </header>
+    <div class="level-menu">
+
+        <div class="all-сategories">
+            <h2>каталог</h2>
+            <input class="сategory" id="box" type="button" value="коробки">
+            <input class="сategory" type="button" value="пакеты">
+            <input class="сategory" type="button" value="наполнители">
+            <input class="сategory" type="button" value="конверты">
+            <input class="сategory" type="button" value="ленты">
+            <input class="сategory" type="button" value="разное">
+        </div>
+        <div>
+            <div class="filters">
+
+                <a class="size" id="size">размер</a>
+                <div class="choiceSize"></div>
+                <a class="filter">материал</a>
+                <div class=""></div>
+                <a class="filter">цвет</a>
+                <div class=""></div>
+                <a class="filter">цена</a>
+                <div class=""></div>
+
+            </div>
+
+
+            <div class="contentPlus">
+
+                <div class="products" id="content">
+                    <div>
+                        <img class="product" src="./img/1.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/2.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/3.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/4.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/5.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/6.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/7.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/8.jpg">
+                        <p>124 руб.</p>
+                    </div>
+                    <div>
+                        <img class="product" src="./img/9.jpg">
+                        <p>124 руб.</p>
+                    </div>
+
+                    <div class="pages">
+                            <a class="page"></a>
+                            <a class="page"></a>
+                            <a class="page"></a>
+                        </div>
+
+                </div>
+
+
+
+
+                <div class="contentTwo" id="contentTwo">
+
+                    <div class="products">
+                        <div>
+                            <img class="product" src="./img/1.jpg">
+                            <p>124 руб.</p>
+                        </div>
+                        <div>
+                            <img class="product" src="./img/2.jpg">
+                            <p>124 руб.</p>
+                        </div>
+                        <div>
+                            <img class="product" src="./img/3.jpg">
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+            </div>
+        </div>
+
+</body>
+
+
+</html>
