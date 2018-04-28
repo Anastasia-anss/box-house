@@ -56,7 +56,7 @@
      overlayElement.style.display = show ? "block" : "none";
   }
  }
-
+ 
  // нажатие "коробки" без обновления страницы
 var content = document.getElementById("content");
 var box = document.getElementById("box");
